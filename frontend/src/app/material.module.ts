@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatCardModule } from '@angular/material/card';
+import { MatCardActions, MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatExpansionModule } from '@angular/material/expansion';
@@ -12,6 +12,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+
 
 @NgModule({
   declarations: [],
@@ -28,7 +29,7 @@ import { MatSortModule } from '@angular/material/sort';
     MatSelectModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule,
+    MatSortModule
   ],
   exports: [
     MatToolbarModule,
@@ -42,7 +43,7 @@ import { MatSortModule } from '@angular/material/sort';
     MatSelectModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule,
+    MatSortModule
   ],
 })
 export class MaterialModule {}
